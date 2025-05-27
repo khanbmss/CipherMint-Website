@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to CipherMint</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/mainCipherMint.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <!-- Header Sectoin -->
+        <div class="row header sticky-top">
+            <div class="col-md-2 col-sm-2 col-5">
+                <div class="logo">
+                    <a href="index.html" ><img src="./assets/images/cipherMint-logo.png" alt="Logo" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-12 d-none d-sm-block"></div>
+            <div class="col-md-7 col-sm-7 col-3">
+                <nav class="navbar navbar-expand-lg position-relative">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse position-absolute top-100 w-100" style="z-index: 1000;" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="aboutcompany.html">About Company</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="ourservices.html">Our Services</a>  
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>       
+                            </li>
+                        </ul>
+                       
+                        </div>
+                    </div>
+                    </nav>
+            </div>
+            <div class="col-md-1 col-sm-1 col-4">
+                <ul class="social-icons">
+                    <li class="icon"><a href="javscript:;"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="icon"><a href="javscript:;"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="icon"><a href="javscript:;"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Carousel Setion -->
+        <div class="row g-0">
+            <div class="col-12 p-0">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                    
+                    <img src="./assets/images/indexSlider-01.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100" data-aos="zoom-in">
+                        <h5>Empowering Digital Transformation in Banking and Finance</h5>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./assets/images/indexSlider-02.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100"  data-aos="zoom-in">
+                        <h5> Building sleek, powerful mobile apps that connect, engage, and perform</h5>
+                    </div>
+                    </div>
+                    <!-- <div class="carousel-item" data-bs-interval="2000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                        <h5>Empowering Digital Transformation in Banking and Finance</h5>
+                    </div>
+                    </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
+        <!-- Our Services -->
+         <div class="container">
+            <div class="row mb-5">
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <div class="OurServicesTitle">
+                                <h3>Our Services</h3> 
+                                <h6>Ready to transform your banking operations?</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4 col-12"> 
+                            <div class="ourserviceSummary shadow rounded" data-aos="fade-right">
+                                <span><img src="./assets/images/gears-solid.svg" alt="Implementation Services"></span> 
+                                <h6>Implementation Services</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                             <div class="ourserviceSummary shadow rounded" data-aos="zoom-in">
+                                <span><img src="./assets/images/money-bill-transfer-solid.svg" alt="Lending"></span> 
+                                <h6>Lending Solution Services</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                             <div class="ourserviceSummary shadow rounded" data-aos="fade-left">
+                               <span><img src="./assets/images/building-columns-solid.svg" alt="Core Banking Services"></span> 
+                                <h6>Core Banking Services</h6>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-md-4 col-sm-4 col-12 "> 
+                            <div class="ourserviceSummary shadow rounded" data-aos="fade-right">
+                                <span><img src="./assets/images/database-solid.svg" alt="Data Warehousing & Analytics Services"></span> 
+                                <h6>Data Warehousing & Analytics Services</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                             <div class="ourserviceSummary shadow rounded" data-aos="zoom-in">
+                                <span><img src="./assets/images/triangle-exclamation-solid.svg" alt="Regulatory & Risk Compliance"></span> 
+                                <h6>Regulatory & Risk Compliance</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                             <div class="ourserviceSummary shadow rounded" data-aos="fade-left">
+                                <span><img src="./assets/images/handshake-solid.svg" alt="Customization & Integration"></span> 
+                                <h6>Customization & Integration</h6>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-4 col-12 "> 
+                            <div class="ourserviceSummary shadow rounded" data-aos="fade-right">
+                                <span><img src="./assets/images/headset-solid.svg" alt="Suport & Maintenance"></span> 
+                                <h6>Support & Maintenance</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                             <div class="ourserviceSummary shadow rounded" data-aos="zoom-in">
+                                <span><img src="./assets/images/chalkboard-user-solid.svg" alt="Training & Change Manangement"></span> 
+                                <h6>Training & Change Management</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                             <div class="ourserviceSummary shadow rounded" data-aos="fade-left">
+                                <span><img src="./assets/images/cloud-solid.svg" alt="Cloud & Managed Services"></span> 
+                                <h6>Cloud & Managed Services</h6>
+                            </div>
+                        </div>
+
+                      
+                    </div>
+         </div>
+       
+        <!-- Our Products -->
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-12">
+                <div class="OurProductTitle">
+                   <h3>Our Products</h3> 
+                </div>
+
+                <div id="carouselExampleIndicators02" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators02" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators02" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators02" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                    
+                    <img src="./assets/images/index-products-01.png" class="d-block w-100" alt="...">
+                    <div class="buttonProductsRightAlign">
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">MintCore</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">MintLink</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">MintCred</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">MintMgmt</a>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="4000">
+                    <img src="./assets/images/index-products-02.png" class="d-block w-100" alt="...">
+                    <div class="buttonProductsLeftAlign">
+                       
+                        <div class="p-2 d-flex justify-content-start " data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">MintRecovery</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-start" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">Document Management</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-start" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">Notification Management</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-start" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">E-Channel Switch</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./assets/images/index-products-03.png" class="d-block w-100" alt="...">
+                    <div class="buttonProductsRightAlign">
+                       
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                            <a href="products.html" class="btn btn-primary btn-lg productsBtn">Mint AML</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">Mint ALM</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">Mint Data & Reporting</a>
+                        </div>
+                        <div class="p-2 d-flex justify-content-end" data-aos="fade-up">
+                             <a href="products.html" class="btn btn-primary btn-lg productsBtn">Mint Dashboard</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators02" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators02" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
+                <!-- Ready to transform your banking operations Sections -->
+        <div class="contactBannner">
+            <h6 class="">Ready to transform your banking operations?<br/>
+                Contact us today.</h6>
+            <a href="contact.html" class="btn btn-primary m-2" data-aos="fade-up"
+     data-aos-duration="3000">Contact Now</a>
+        </div>
+        <!-- About Us -->
+         <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <div class="indexAboutus" data-aos="fade-left">
+                        <h6> About Us</h6>
+                        <h3>We are Specialize in IT Solutions</h3>
+                        <p>At CipherMint, we specialize in delivering cutting-edge software solutions and services tailored for the banking and financial services industry.</p>
+                        
+                        <small>Satisfied Clients</small>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-success" style="width:85%">85%</div>
+                        </div>
+                        <div class="d-flex p-3">
+                            <a href="aboutcompany.html" class="btn btn-primary m-2" >Read more</a>
+                        <button class="btn btn-info m-2">Book a Meeting</button>
+                        </div>
+                    
+                </div>
+                
+                </div>
+                <div class="col-md-6 col-sm-6 col-12">
+                    <div class="indexAboutus"  data-aos="fade-up-right">
+                    <img src="./assets/images/index-aboutus.png" alt="About CipherMint" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Count Sections -->
+        <div class="row indexcounts">
+            <div class="col-md-2 col-sm-2 col-6 d-none d-sm-block"></div>
+            <div class="col-md-2 col-sm-2 col-6">
+                <div class="indexCounts" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                    <h1 class="count-up" data-target="100">100+</h1>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-6">
+                <div class="indexCounts" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                    <h1 class="count-up" data-target="200">200+</h1>
+                    <p>Projects Completed</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-6">
+                <div class="indexCounts" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                    <h1 class="count-up" data-target="50">50+</h1>
+                    <p>Team Members</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-6">
+                <div class="indexCounts" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                    <h1 class="count-up" data-target="10">10+</h1>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+              <div class="col-md-2 col-sm-2 col-6 d-none d-sm-block"></div>
+        </div>
+        <!-- Footer starts -->
+        <div class="row footer">
+            <div class="col-md-12 col-sm-12 col-12">
+                <div class="footerContent">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 col-12 d-none d-sm-block"></div>
+                        <div class="col-md-2 col-sm-2 col-12">
+                            <img src="./assets/images/cipherMint-logo.png" alt="Logo" class="img-fluid footerlogo">
+
+                             <h5 class="" style="text-align: left;">Links</h5>
+                             <h5 class="line-gradient"></h5>
+                            <ul class="footerLinks">
+                                <li style="margin-bottom: 8px;"><a href="index.html">Home</a></li>
+                                <li style="margin-bottom: 8px;"><a href="aboutcompany.html">About Company</a></li>
+                                <li style="margin-bottom: 8px;"><a href="ourservices.html">Our Services</a></li>
+                                <li style="margin-bottom: 8px;"><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                         <div class="col-md-1 col-sm-1 col-12 d-none d-sm-block"></div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <h5 class="" style="text-align: left;">Our Products</h5>
+                             <h5 class="line-gradient"></h5>
+                             <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                <ul class="footerLinks">
+                                    <li style="margin-bottom: 8px;"><a href="products.html">MintCore</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">MintLink</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">MintCred</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">MintMgmt</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">MintRecovery</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">Document Management</a></li>
+                                </ul>
+                                <ul class="footerLinks">
+                                    <li style="margin-bottom: 8px;"><a href="products.html">Notification Management</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">E-Channel Switch</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">Mint AML</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">Mint ALM</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">Mint Data & Reporting</a></li>
+                                    <li style="margin-bottom: 8px;"><a href="products.html">Mint Dashboard</a></li>
+                                </ul>
+
+                             </div>
+                            
+                        </div>
+                         <div class="col-md-1 col-sm-1 col-12 d-none d-sm-block"></div>
+                        <div class="col-md-3 col-sm-3 col-12 ">
+                            <h5 class="" style="text-align: left;">Our Presence</h5>
+                             <h5 class="line-gradient"></h5>
+                             <div class="footerAddress">
+                                <span >Head Office</span>
+                                <p > 205-206, M1, Adhiraj, Sector 5,
+                                Navi Mumbai 410210.
+                                Maharashtra, India.
+                                </p>
+                             </div>
+                             <div class="footerAddress">
+                                <span >Bengaluru Office</span>
+                                <p > 204, 2nd Main Road, 4th Block, Rajaji Nagar, 
+                                    Bengaluru 560010. Karnataka, India.
+                                </p>
+                             </div>
+                             <div class="footerAddress">
+                                
+                                <p class="copyright"> &copy; 2025 
+ShoreWise Consulting. <br>All Rights Reserved.
+                                </p>
+                             </div>
+
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footRedBar">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery-3.7.1.min"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+         AOS.init();
+
+document.addEventListener("DOMContentLoaded", function() {
+  const counters = document.querySelectorAll('.count-up');
+  const duration = 5000; // animation duration in ms
+
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    let start = 0;
+    const increment = target / (duration / 16);
+
+    function updateCounter() {
+      start += increment;
+      if (start < target) {
+        counter.textContent = Math.floor(start) + '+';
+        requestAnimationFrame(updateCounter);
+      } else {
+        counter.textContent = target + '+';
+      }
+    }
+    updateCounter();
+  });
+});
+</script>
+  </body>
+</html>
