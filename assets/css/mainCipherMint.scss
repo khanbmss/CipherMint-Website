@@ -81,6 +81,31 @@ body {
     background-repeat: no-repeat;
 }
 
+.headerotherContact{
+    background-image: url('../images/contact-top-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.primaryMainBG{
+    background-color: var(--greenMain100);
+}
+
+.secondaryMainBG{
+    background-color: var(--Secondary100);
+}
+
+.contactContent{
+    h6{
+        font-size: var(--font-size-20);
+        margin: 10px 0px;
+    }
+    p{
+        font-size: var(--font-size-14);
+    }
+}
+
 .headerothers{
     height:65vh;
       @media (max-width: 576px) {
