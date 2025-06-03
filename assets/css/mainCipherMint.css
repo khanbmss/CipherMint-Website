@@ -218,6 +218,7 @@ body {
   color: var(--dark-color);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -505,8 +506,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0 !important;
 }
 
+.carousel {
+  overflow: hidden; /* Hide any content that overflows */
+}
+
 .carousel-caption {
-  position: absolute;
+  position: absolute; /* or relative */
   right: 15%;
   bottom: 0rem;
   left: 15%;
@@ -955,4 +960,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-18);
     padding: 0 10px;
   }
+}
+
+.productsIndicators .carousel-indicators button {
+  background-color: var(--greenMain) !important;
+}
+.productsIndicators .carousel-control-next-icon {
+  background-image: url(../images/circle-arrow-right-solid.svg) !important;
+}
+.productsIndicators .carousel-control-prev-icon {
+  background-image: url(../images/circle-arrow-left-solid.svg) !important;
+}
+
+.indexIndicators .carousel-indicators button {
+  background-color: var(--white-color) !important;
+}
+.indexIndicators .carousel-control-next-icon {
+  background-image: url(../images/circle-arrow-right-solid.svg) !important;
+  filter: invert(48%) sepia(79%) saturate(456%) hue-rotate(140deg) brightness(97%) contrast(91%);
+}
+.indexIndicators .carousel-control-prev-icon {
+  background-image: url(../images/circle-arrow-left-solid.svg) !important;
+  filter: invert(48%) sepia(79%) saturate(456%) hue-rotate(140deg) brightness(97%) contrast(91%);
 }/*# sourceMappingURL=mainCipherMint.css.map */
