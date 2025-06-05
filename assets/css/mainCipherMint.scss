@@ -377,9 +377,9 @@ body {
     font-size: var(--bs-btn-font-size);
     padding: 10px;
       @media (max-width: 576px) and (max-width: 767px) {
-        width: 44vw;
-        font-size: var( --font-size-12);
-         padding: 5px;
+        width: 35vw;
+        font-size: var( --font-size-10);
+         padding: 3px;
     }
 }
 
@@ -393,8 +393,8 @@ body {
     top: 25%;
     right: 15%;
       @media (max-width: 576px) and (max-width: 767px) {
-        top:2%;
-        right: 5%;
+        top:10%;
+        right: 12%;
     }
 }
 
@@ -404,8 +404,8 @@ body {
     top: 25%;
     left: 15%;
       @media (max-width: 576px) and (max-width: 767px) {
-        top:2%;
-        left: 5%;
+        top:10%;
+        left: 12%;
      }
 }
 .indexAboutus{
