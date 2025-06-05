@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   .header .social-icons {
     position: fixed;
     top: 0;
-    left: 30%;
+    left: 38%;
   }
 }
 .header .social-icons .icon {
@@ -672,9 +672,9 @@ h1, h2, h3, h4, h5, h6 {
 .indexAboutus .bigFontAbout {
   font-size: var(--font-size-26);
   color: var(--black-color);
-  line-height: 26px;
+  line-height: 35px;
   font-weight: 600;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 .indexAboutus .aboutMission {
   display: flex;
@@ -973,7 +973,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .OurProductContainer h6 {
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-15);
   }
 }
 .OurProductContainer p {
@@ -1033,12 +1033,15 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .navbar-toggler {
     background-color: var(--greenMain50) !important;
-    left: 150%;
+    left: 190%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 8px;
   }
   .navbar-collapse {
     position: fixed; /* Fixed positioning */
-    top: 0;
-    left: 100%;
+    top: 127% !important;
+    left: -167%;
+    width: 100vw !important;
     background-color: #f8f9fa; /* Or any background color */
     padding: 0px;
     z-index: 1050; /* Ensure it's above other content */

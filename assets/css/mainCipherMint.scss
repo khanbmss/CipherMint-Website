@@ -47,7 +47,7 @@ body {
          @media (max-width: 576px) and (max-width: 767px) {
                position: fixed;
                 top: 0;
-                left: 30%;
+                left: 38%;
             }
         .icon{
             width: 30px;
@@ -443,9 +443,9 @@ body {
     .bigFontAbout{
         font-size: var(--font-size-26);
         color: var(--black-color);
-        line-height: 26px;
+        line-height: 35px;
         font-weight: 600;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .aboutMission{
         display: flex;
@@ -710,7 +710,7 @@ body {
         font-weight: 600;
         margin: 10px 0px;
          @media (max-width: 576px) and (max-width: 767px) {
-            font-size: var(--font-size-16);
+            font-size: var(--font-size-15);
         }
     }
     p{
@@ -777,13 +777,16 @@ body {
 @media (max-width: 768px) {
 .navbar-toggler{
     background-color: var(--greenMain50) !important;
-    left: 150%;
+    left: 190%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 8px;
 }
 
   .navbar-collapse {
     position: fixed; /* Fixed positioning */
-    top: 0;
-    left: 100%;
+    top: 127% !important;
+    left: -167%;
+    width: 100vw !important;
     // height: 40vh; /* Full viewport height */
     // width: 250px; /* Adjust width as needed */
     background-color: #f8f9fa; /* Or any background color */
