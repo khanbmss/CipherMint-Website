@@ -56,7 +56,7 @@
             <div class="col-md-1 col-sm-1 col-4">
                 <ul class="social-icons">
                     <li class="icon"><a href="javscript:;"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li class="icon"><a href="javscript:;"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="icon"><a href="javscript:;"><i class="fa-brands fa-facebook"></i></a></li>
                     <li class="icon"><a href="javscript:;"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
@@ -195,19 +195,19 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-4 col-12"> 
+                        <div class="col-md-4 col-sm-4 col-6"> 
                             <div class="ourserviceSummary shadow rounded" data-aos="fade-right">
                                 <span><img src="./assets/images/gears-solid.svg" alt="Implementation Services"></span> 
                                 <h6>Implementation Services</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-4 col-sm-4 col-6">
                              <div class="ourserviceSummary shadow rounded" data-aos="zoom-in">
                                 <span><img src="./assets/images/money-bill-transfer-solid.svg" alt="Lending"></span> 
                                 <h6>Lending Solution Services</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-4 col-sm-4 col-6">
                              <div class="ourserviceSummary shadow rounded" data-aos="fade-left">
                                <span><img src="./assets/images/building-columns-solid.svg" alt="Core Banking Services"></span> 
                                 <h6>Core Banking Services</h6>
@@ -215,38 +215,38 @@
                         </div>
                         
                         
-                        <div class="col-md-4 col-sm-4 col-12 "> 
+                        <div class="col-md-4 col-sm-4 col-6"> 
                             <div class="ourserviceSummary shadow rounded" data-aos="fade-right">
                                 <span><img src="./assets/images/database-solid.svg" alt="Data Warehousing & Analytics Services"></span> 
                                 <h6>Data Warehousing & Analytics Services</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-4 col-sm-4 col-6">
                              <div class="ourserviceSummary shadow rounded" data-aos="zoom-in">
                                 <span><img src="./assets/images/triangle-exclamation-solid.svg" alt="Regulatory & Risk Compliance"></span> 
                                 <h6>Regulatory & Risk Compliance</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-4 col-sm-4 col-6">
                              <div class="ourserviceSummary shadow rounded" data-aos="fade-left">
                                 <span><img src="./assets/images/handshake-solid.svg" alt="Customization & Integration"></span> 
                                 <h6>Customization & Integration</h6>
                             </div>
                         </div>
                         
-                        <div class="col-md-4 col-sm-4 col-12 "> 
+                        <div class="col-md-4 col-sm-4 col-6"> 
                             <div class="ourserviceSummary shadow rounded" data-aos="fade-right">
                                 <span><img src="./assets/images/headset-solid.svg" alt="Suport & Maintenance"></span> 
                                 <h6>Support & Maintenance</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-4 col-sm-4 col-6">
                              <div class="ourserviceSummary shadow rounded" data-aos="zoom-in">
                                 <span><img src="./assets/images/chalkboard-user-solid.svg" alt="Training & Change Manangement"></span> 
                                 <h6>Training & Change Management</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-4 col-sm-4 col-6">
                              <div class="ourserviceSummary shadow rounded" data-aos="fade-left">
                                 <span><img src="./assets/images/cloud-solid.svg" alt="Cloud & Managed Services"></span> 
                                 <h6>Cloud & Managed Services</h6>
@@ -432,6 +432,16 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     updateCounter();
   });
+
+  const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+
+    if (navbarToggler) {
+        navbarToggler.addEventListener('click', function () {
+            navbarCollapse.classList.toggle('show');
+        });
+    }
+    
 });
 </script>
   </body>
