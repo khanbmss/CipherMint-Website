@@ -45,7 +45,7 @@ body {
         margin-top: 15px;
         list-style: none;
          @media (max-width: 576px) and (max-width: 767px) {
-               position: fixed;
+               position: absolute;
                 top: 0;
                 left: 38%;
             }
@@ -130,9 +130,9 @@ body {
         margin-top: 15px;
         list-style: none;
            @media (max-width: 576px)  and (max-width: 767px){
-               position: fixed;
+                position: absolute;
                 top: 0;
-                left: 30%;
+                left: 38%;
             }
         .icon{
             width: 30px;

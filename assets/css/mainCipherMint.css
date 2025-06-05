@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .header .social-icons {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 38%;
   }
@@ -343,9 +343,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .headerothers .social-icons {
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 30%;
+    left: 38%;
   }
 }
 .headerothers .social-icons .icon {
