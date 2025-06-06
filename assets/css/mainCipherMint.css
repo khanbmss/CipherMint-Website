@@ -267,9 +267,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header .social-icons {
-    width: 28vw;
-    font-size: var(--font-size-13);
-    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 38%;
   }
 }
 .header .social-icons .icon {
@@ -357,6 +357,13 @@ h1, h2, h3, h4, h5, h6 {
     left: 38%;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .headerothers .social-icons {
+    position: absolute;
+    top: 0;
+    left: 38%;
+  }
+}
 .headerothers .social-icons .icon {
   width: 30px;
   height: 30px;
@@ -398,10 +405,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: var(--font-size-16);
   color: var(--white-color);
   margin: 10px 0;
+  text-align: center;
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .headerothers .pageTitle h6 {
     font-size: var(--font-size-12);
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .headerothers .pageTitle h6 {
+    font-size: var(--font-size-16);
     width: 80%;
   }
 }
@@ -709,6 +723,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem 2rem;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .indexAboutus {
+    padding: 1rem 1rem;
+  }
+}
 .indexAboutus h6 {
   font-size: 2rem;
   font-weight: 500;
@@ -743,6 +762,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 35px;
   font-weight: 600;
   padding-bottom: 0px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .indexAboutus .bigFontAbout {
+    font-size: var(--font-size-22);
+  }
 }
 .indexAboutus .aboutMission {
   display: flex;
@@ -1004,15 +1028,42 @@ h1, h2, h3, h4, h5, h6 {
     height: 25vh;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .OurServiceContainer {
+    height: 82vh;
+  }
+}
 .OurServiceContainer img {
   filter: invert(50%) sepia(89%) saturate(542%) hue-rotate(317deg) brightness(103%) contrast(101%);
   width: 10vw;
   height: 10vh;
 }
+@media (max-width: 576px) and (max-width: 767px) {
+  .OurServiceContainer img {
+    width: 8vw;
+    height: 8vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .OurServiceContainer img {
+    width: 7vw;
+    height: 7vh;
+  }
+}
 .OurServiceContainer h6 {
   font-size: var(--font-size-18);
   font-weight: 600;
   margin: 10px 0px;
+}
+@media (max-width: 576px) and (max-width: 767px) {
+  .OurServiceContainer h6 {
+    font-size: var(--font-size-13);
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .OurServiceContainer h6 {
+    font-size: var(--font-size-15);
+  }
 }
 .OurServiceContainer ul {
   list-style: square;
@@ -1037,6 +1088,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 38vh;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .OurProductContainer {
+    height: 70vh;
+  }
+}
 .OurProductContainer img {
   width: 4vw;
   margin-bottom: 10px;
@@ -1056,10 +1112,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-15);
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .OurProductContainer h6 {
+    font-size: var(--font-size-14);
+  }
+}
 .OurProductContainer p {
   font-size: var(--font-size-14);
   color: var(--black-color);
   min-height: 15vh;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .OurProductContainer p {
+    font-size: var(--font-size-12);
+    min-height: 26vh;
+  }
 }
 
 .contactBannner {
@@ -1113,15 +1180,15 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-toggler {
     background-color: var(--greenMain50) !important;
-    left: 105%;
+    left: 100%;
     padding: 0px 0px 0px 0px;
     margin-top: 44px;
     position: absolute;
   }
   .navbar-collapse {
-    position: fixed; /* Fixed positioning */
-    top: 127% !important;
-    left: -167%;
+    position: absolute !important;
+    top: 42px !important;
+    left: 117%;
     width: 100vw !important;
     background-color: #f8f9fa; /* Or any background color */
     padding: 0px;
