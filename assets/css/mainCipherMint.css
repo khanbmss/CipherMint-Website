@@ -1063,6 +1063,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) and (max-width: 991px) {
   .OurServiceContainer h6 {
     font-size: var(--font-size-15);
+    text-align: center;
   }
 }
 .OurServiceContainer ul {
