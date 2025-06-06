@@ -940,8 +940,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .ourserviceSummary span {
-    font-size: var(--font-size-26);
-    padding: 5px;
+    font-size: var(--font-size-22);
+    padding: 4px;
   }
 }
 .ourserviceSummary span img {
@@ -955,14 +955,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .ourserviceSummary h6 {
-    font-size: var(--font-size-14);
-    width: 80%;
+    font-size: var(--font-size-13);
+    width: 90%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .ourserviceSummary h6 {
     font-size: var(--font-size-12);
-    width: 80%;
+    width: 90%;
   }
 }
 
