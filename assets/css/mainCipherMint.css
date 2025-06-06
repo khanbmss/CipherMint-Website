@@ -24,6 +24,8 @@
   --font-size-lg: 1.25rem;
   --font-size-md: 1rem;
   --font-size-sm: 0.875rem;
+  --font-size-8: 0.5rem;
+  --font-size-9: 0.5625rem;
   --font-size-10: 0.625rem;
   --font-size-11: 0.688rem;
   --font-size-12: 0.75rem;
@@ -600,7 +602,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 576px) and (max-width: 767px) {
   .productsBtn {
     width: 35vw;
-    font-size: var(--font-size-10);
+    font-size: var(--font-size-9);
+    padding: 3px;
+  }
+}
+@media (max-width: 375px) and (max-width: 667px) {
+  .productsBtn {
+    width: 37vw;
+    font-size: var(--font-size-9);
     padding: 3px;
   }
 }
@@ -620,6 +629,25 @@ h1, h2, h3, h4, h5, h6 {
     right: 12%;
   }
 }
+@media (max-width: 375px) and (max-width: 667px) {
+  .buttonProductsRightAlign {
+    top: 14%;
+    right: 12%;
+  }
+}
+.buttonProductsRightAlign div {
+  padding: 8px;
+}
+@media (max-width: 576px) and (max-width: 767px) {
+  .buttonProductsRightAlign div {
+    padding: 5px;
+  }
+}
+@media (max-width: 375px) and (max-width: 667px) {
+  .buttonProductsRightAlign div {
+    padding: 3px;
+  }
+}
 
 .buttonProductsLeftAlign {
   position: absolute;
@@ -630,6 +658,19 @@ h1, h2, h3, h4, h5, h6 {
   .buttonProductsLeftAlign {
     top: 10%;
     left: 12%;
+  }
+}
+.buttonProductsLeftAlign div {
+  padding: 8px;
+}
+@media (max-width: 576px) and (max-width: 767px) {
+  .buttonProductsLeftAlign div {
+    padding: 5px;
+  }
+}
+@media (max-width: 375px) and (max-width: 667px) {
+  .buttonProductsLeftAlign div {
+    padding: 3px;
   }
 }
 

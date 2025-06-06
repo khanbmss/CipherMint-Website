@@ -378,9 +378,14 @@ body {
     padding: 10px;
       @media (max-width: 576px) and (max-width: 767px) {
         width: 35vw;
-        font-size: var( --font-size-10);
+        font-size: var( --font-size-9);
          padding: 3px;
     }
+        @media (max-width: 375px) and (max-width: 667px) {
+           width: 37vw;
+        font-size: var( --font-size-9);
+         padding: 3px;
+        }
 }
 
 .buttonTopMargin50px{
@@ -396,6 +401,19 @@ body {
         top:10%;
         right: 12%;
     }
+      @media (max-width: 375px) and (max-width: 667px) {
+        top:14%;
+        right: 12%;
+    }
+    div{
+        padding: 8px;
+         @media (max-width: 576px) and (max-width: 767px) {
+            padding: 5px;
+        }
+        @media (max-width: 375px) and (max-width: 667px) {
+           padding: 3px;
+        }
+    }
 }
 
 .buttonProductsLeftAlign
@@ -407,6 +425,15 @@ body {
         top:10%;
         left: 12%;
      }
+      div{
+        padding: 8px;
+         @media (max-width: 576px) and (max-width: 767px) {
+            padding: 5px;
+        }
+        @media (max-width: 375px) and (max-width: 667px) {
+           padding: 3px;
+        }
+    }
 }
 .indexAboutus{
     padding: 2rem 5rem;
