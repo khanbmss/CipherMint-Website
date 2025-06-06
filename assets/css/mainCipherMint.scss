@@ -661,6 +661,10 @@ body {
     span{
         font-size: var(--font-size-32);
         padding: 10px;
+        @media (max-width: 576px) and (max-width: 767px) {
+               font-size: var(--font-size-26);
+                padding: 5px;
+            }
         img{
             // filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%); 
             filter: invert(50%) sepia(89%) saturate(542%) hue-rotate(317deg) brightness(103%) contrast(101%);
