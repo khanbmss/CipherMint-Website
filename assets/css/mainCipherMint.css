@@ -608,9 +608,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 375px) and (max-width: 667px) {
   .productsBtn {
-    width: 37vw;
+    width: 38vw;
     font-size: var(--font-size-9);
-    padding: 3px;
+    padding: 2px;
   }
 }
 
