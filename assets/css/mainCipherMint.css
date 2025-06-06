@@ -265,6 +265,13 @@ h1, h2, h3, h4, h5, h6 {
     left: 38%;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .header .social-icons {
+    width: 28vw;
+    font-size: var(--font-size-13);
+    padding: 5px;
+  }
+}
 .header .social-icons .icon {
   width: 30px;
   height: 30px;
@@ -546,12 +553,24 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--bs-carousel-caption-color);
   text-align: center;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+  }
+}
 .carousel-caption h5 {
   font-size: 4.5rem;
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .carousel-caption h5 {
     font-size: 1.1rem;
+    padding: 0 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption h5 {
+    font-size: 2.5rem;
     padding: 0 10px;
   }
 }
@@ -598,6 +617,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 23vw;
   font-size: var(--bs-btn-font-size);
   padding: 10px;
+  /* Tablets */
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .productsBtn {
@@ -611,6 +631,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 38vw;
     font-size: var(--font-size-9);
     padding: 2px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .productsBtn {
+    width: 28vw;
+    font-size: var(--font-size-13);
+    padding: 5px;
   }
 }
 
@@ -922,7 +949,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) and (max-width: 767px) {
   .ourserviceSummary h6 {
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .ourserviceSummary h6 {
+    font-size: var(--font-size-12);
     width: 80%;
   }
 }
@@ -1071,6 +1104,27 @@ h1, h2, h3, h4, h5, h6 {
   filter: invert(48%) sepia(79%) saturate(456%) hue-rotate(140deg) brightness(97%) contrast(91%);
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    background-color: var(--greenMain50) !important;
+    left: 105%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 44px;
+    position: absolute;
+  }
+  .navbar-collapse {
+    position: fixed; /* Fixed positioning */
+    top: 127% !important;
+    left: -167%;
+    width: 100vw !important;
+    background-color: #f8f9fa; /* Or any background color */
+    padding: 0px;
+    z-index: 1050; /* Ensure it's above other content */
+    overflow-y: auto; /* Scroll if content overflows */
+    transform: translateX(-100%); /* Hide off-screen initially */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+}
 @media (max-width: 768px) {
   .navbar-toggler {
     background-color: var(--greenMain50) !important;

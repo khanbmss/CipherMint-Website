@@ -49,6 +49,11 @@ body {
                 top: 0;
                 left: 38%;
             }
+        @media (min-width: 768px) and (max-width: 991px) {
+            width: 28vw;
+            font-size: var( --font-size-13);
+            padding: 5px;
+        }
         .icon{
             width: 30px;
             height: 30px;
@@ -326,10 +331,18 @@ body {
     padding-bottom: 1.25rem;
     color: var(--bs-carousel-caption-color);
     text-align: center;
+     @media (min-width: 768px) and (max-width: 991px) {
+             padding-top: 1rem;
+            padding-bottom: 1.25rem;
+        }
     h5{
         font-size: 4.5rem;
         @media (max-width: 576px) and (max-width: 767px) {
             font-size: 1.1rem;
+            padding: 0 10px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+           font-size: 2.5rem;
             padding: 0 10px;
         }
     }
@@ -385,6 +398,12 @@ body {
            width: 38vw;
             font-size: var( --font-size-9);
          padding: 2px;
+        }
+        /* Tablets */
+        @media (min-width: 768px) and (max-width: 991px) {
+            width: 28vw;
+            font-size: var( --font-size-13);
+            padding: 5px;
         }
 }
 
@@ -653,9 +672,13 @@ body {
         font-size: var(--font-size-22);
          width: 65%;
          @media (max-width: 576px) and (max-width: 767px) {
-                font-size: var(--font-size-16);
+                font-size: var(--font-size-14);
                 width: 80%;
             }
+            @media (min-width: 768px) and (max-width: 991px) {
+             font-size: var(--font-size-12);
+             width: 80%;
+        }
     }
 }
 
@@ -800,7 +823,28 @@ body {
  filter: invert(48%) sepia(79%) saturate(456%) hue-rotate(140deg) brightness(97%) contrast(91%);
     }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+            .navbar-toggler{
+                background-color: var(--greenMain50) !important;
+                left: 105%;
+                padding: 0px 0px 0px 0px;
+                margin-top: 44px;
+                position: absolute;
+            }
 
+          .navbar-collapse {
+            position: fixed; /* Fixed positioning */
+            top: 127% !important;
+            left: -167%;
+            width: 100vw !important;
+            background-color: #f8f9fa; /* Or any background color */
+            padding: 0px;
+            z-index: 1050; /* Ensure it's above other content */
+            overflow-y: auto; /* Scroll if content overflows */
+            transform: translateX(-100%); /* Hide off-screen initially */
+            transition: transform 0.3s ease; /* Smooth transition */
+        }
+        }
 @media (max-width: 768px) {
 .navbar-toggler{
     background-color: var(--greenMain50) !important;
